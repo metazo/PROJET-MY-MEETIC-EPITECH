@@ -1,0 +1,20 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.nice-nav {
+  display: flex;
+  position: relative;
+}
+
+#containerUl li{
+  list-style: none;
+  display: flex;
+}
