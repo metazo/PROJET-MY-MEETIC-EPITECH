@@ -14,9 +14,9 @@ class User {
             var_dump($dbconnect);
             $dbconnect->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
 
-            $requete = "SELECT  * FROM users WHERE email = :email ";
+            $requete = "SELECT  * FROM users WHERE mail = :mail ";
             $prepare = $dbconnect->prepare("".$requete."");
-            $prepare->bindParam(':email', $email, PDO::PARAM_STR);
+            $prepare->bindParam(':mail', $email, PDO::PARAM_STR);
             $prepare->execute();
 
 

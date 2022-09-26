@@ -88,7 +88,7 @@ if(isset($_POST['formconnexion'])){
                 <input type="submit" name="formconnexion" value="Se connecter" class="btn" />
                 <br>
                 <div class="Inscrit">
-                    <a href="InscriptionUser.php">
+                    <a href="index.php">
                         <span class="thin">Pas encore</span><span class="thick"> de compte ?</span>
                     </a>
                 </div>
