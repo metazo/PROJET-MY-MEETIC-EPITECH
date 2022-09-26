@@ -16,7 +16,7 @@ CREATE TABLE `users` (
 
 
 
-INSERT INTO `users` (`id`, `name`, `mail`, `mail`, `mdp`, `remember_token`, `created_at`, `updated_at`) VALUES
+INSERT INTO `users` (`id`, `name`, `mail`, `mdp`, `remember_token`, `created_at`, `updated_at`) VALUES
 (15, 'Lukas', 'lukas.bouhlel@gmail.com', NULL, '$2y$10$56zpM9LB9BtHd251WoQ8QuF6LOj.ubabsw7uYZo4rXv3PUUUFVLv6', NULL, '2020-04-23 14:25:52', '2020-04-23 14:25:52'),
 (16, 'Toto', 'toto@gmail.com', NULL, '$2y$10$IgAFQzUveUspUVF3VPQVzeD56NgHQBOLBkqpNGw85BEfJPzp0.4IS', NULL, '2020-04-24 12:13:05', '2020-04-24 12:13:05');
 
